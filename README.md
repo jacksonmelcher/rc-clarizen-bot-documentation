@@ -20,15 +20,27 @@ Clarizen bot has already been installed on Glip and all you need to do is run a 
 
 # Commands
 
-Right now, Clarizen bot understands a few commands. They are listed below. For help with syntax please refer to the syntax section
+Right now, Clarizen bot understands a few commands. For help with syntax please refer to the [syntax section](#Syntax).
 
 ```
-{project | task} status [on-track | off-track | at-risk | not-active ]
+{ project | task } status [ on-track | off-track | at-risk | not-active ]
 ```
 
 ```
-{project | task} state [on-track | not-active ]
+{ project | task } state [ active| not-active ]
 ```
+
+```
+help
+```
+
+# Examples
+
+`project status` - Lists all projects and their status
+`project state` - Lists all projects and their state
+`task status on-track` - Lists all tasks with a status of 'On Track'
+`task status off-track` - Lists all tasks with a status of 'Off Track'
+`task status at-rist` - Lists all tasks with a status of 'At Risk'
 
 ### Syntax
 
