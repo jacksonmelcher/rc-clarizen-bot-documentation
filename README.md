@@ -34,12 +34,14 @@ You then have the **option** to filter by the status (`on-track`,`off-track`,`at
 
 #### State
 
-The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`. `task state` is a valid command and will return **all** tasks and their states. This is true with `project state` as well.
-You then have the **option** to filter by the status (`on-track`,`off-track`,`at-risk`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command. Example: `project state completed` or `task state active`
+```
+{ project | task } state [ active | completed | cancelled | not-active]
+```
 
-```
-{ project | task } state [ active| not-active | completed | cancelled]
-```
+The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`. `task state` is a valid command and will return **all** tasks and their states. This is true with `project state` as well.
+You then have the **option** to filter by the `state` (`active`,`off-track`,`cancelled`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command.
+
+Example: `project state completed` or `task state active`
 
 # Examples
 
@@ -47,11 +49,11 @@ You then have the **option** to filter by the status (`on-track`,`off-track`,`at
 
 -   `project status` - Lists all `projects` and their `status`
 -   `project state` - Lists all `projects` and their state
--   `task status` - Lists all tasks and their `status`
--   `task state` - Lists all tasks and their state
--   `task status on-track` - Lists all tasks with a `status` of `on-track`
+-   `task status` - Lists all `tasks` and their `status`
+-   `task state` - Lists all `tasks` and their state
+-   `task status on-track` - Lists all `tasks` with a `status` of `on-track`
 -   `task state cancelled` - Lists all `projects` with a `state` of `cancelled`
--   `project status at-risk` - Lists all tasks with a `status` of `at-risk`
+-   `project status at-risk` - Lists all `tasks` with a `status` of `at-risk`
 
 ### Syntax
 
