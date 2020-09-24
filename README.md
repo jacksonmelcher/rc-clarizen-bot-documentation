@@ -36,7 +36,7 @@ help
 
 # Examples
 
-![](images/exapmle.gif)
+![](images/example.gif)
 
 `project status` - Lists all projects and their status
 `project state` - Lists all projects and their state
