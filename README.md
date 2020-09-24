@@ -36,8 +36,12 @@ help
 
 # Examples
 
+![](images/exapmle.gif)
+
 `project status` - Lists all projects and their status
 `project state` - Lists all projects and their state
+`task status` - Lists all tasks and their status
+`task state` - Lists all tasks and their state
 `task status on-track` - Lists all tasks with a status of 'On Track'
 `task status off-track` - Lists all tasks with a status of 'Off Track'
 `task status at-rist` - Lists all tasks with a status of 'At Risk'
