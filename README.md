@@ -3,15 +3,26 @@
 Clarizen Bot lets you stay up-to-date with your projects without leaving Glip. Get immediate information you need without having to remember tricky commands.
 Once you’ve connected with Clarizen, Clarizen Bot can retrieve project statuses, project states, task statuses, and task states for you, with more features coming soon.
 
-# Availibility
+## Table of Contents
+
+-   [Availibility](#Availibility)
+-   [Feedback](#We-want-your-feedback)
+-   [Commands](#Commands)
+-   [Status](#Status)
+-   [State](#State)
+-   [Examples](#Examples)
+-   [Aliases](#Aliases)
+-   [Examples](#Syntax)
+
+## Availibility
 
 Clarizen bot is in its first stages of development and is only available only to RC employees at this time.
 
-# We want your feedback
+## We want your feedback
 
 We'd love to hear your feedback about Clarizen Bot. If you spot bugs or have features that you'd really like to see, please check out the [bug and feature sumbission form](https://forms.gle/KKYKVVoxUN5z32dY7).
 
-# Getting started
+## Getting started
 
 ### Installation
 
@@ -19,7 +30,7 @@ Clarizen bot has already been installed on Glip and all you need to do is run a 
 
 ![Global Search screenshot](images/search.png)
 
-# Commands
+## Commands
 
 Right now, Clarizen bot understands a few commands. For help with syntax please refer to the [syntax section](#Syntax). For the sake of simplicity `state` and `status` arguments have been split into two examples:
 
@@ -43,7 +54,7 @@ You then have the **option** to filter by the `state` (`active`,`off-track`,`can
 
 Example: `project state completed` or `task state active`
 
-# Examples
+## Examples
 
 ![](images/example.gif)
 
@@ -54,6 +65,29 @@ Example: `project state completed` or `task state active`
 -   `task status on-track` - Lists all `tasks` with a `status` of `on-track`
 -   `task state cancelled` - Lists all `projects` with a `state` of `cancelled`
 -   `project status at-risk` - Lists all `tasks` with a `status` of `at-risk`
+
+To shorten commands Clarizen bot also recognizes aliases. Please refer to the ![alias section](#Aliases)
+
+### Aliases
+
+| Keyword      | Alias |
+| ------------ | ----- |
+| `project`    | `p`   |
+| `task`       | `t`   |
+| `status`     | `stu` |
+| `state`      | `sta` |
+| `on-track`   | `on`  |
+| `off-track`  | `off` |
+| `at-risk`    | `ar`  |
+| `not-active` | `na`  |
+| `active`     | `a`   |
+| `completed`  | `co`  |
+| `cancelled`  | `ca`  |
+
+Examples:
+
+-   `p sta` - `project state`
+-   `t stu off` - `task status off-track`
 
 ### Syntax
 
