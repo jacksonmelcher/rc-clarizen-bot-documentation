@@ -22,36 +22,36 @@ Clarizen bot has already been installed on Glip and all you need to do is run a 
 # Commands
 
 Right now, Clarizen bot understands a few commands. For help with syntax please refer to the [syntax section](#Syntax). For the sake of simplicity `state` and `status` arguments have been split into two examples:
+
 #### Status
+
 ```
 { project | task } status [ on-track | off-track | at-risk | not-active ]
 ```
-The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`.  `task status` is a valid command and will return **all** tasks and their statuses. This is true with `project status` as well.
+
+The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`. `task status` is a valid command and will return **all** tasks and their statuses. This is true with `project status` as well.
 You then have the **option** to filter by the status (`on-track`,`off-track`,`at-risk`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command. Example: `project status on-track` or `task status off-track`
 
 #### State
-The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`.  `task state` is a valid command and will return **all** tasks and their states. This is true with `project state` as well.
-You then have the **option** to filter by the status (`on-track`,`off-track`,`at-risk`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command. Example: `project state on-track` or `task state off-track`
-```
-{ project | task } state [ active| not-active ]
-```
 
+The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`. `task state` is a valid command and will return **all** tasks and their states. This is true with `project state` as well.
+You then have the **option** to filter by the status (`on-track`,`off-track`,`at-risk`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command. Example: `project state completed` or `task state active`
 
 ```
-help
+{ project | task } state [ active| not-active | completed | cancelled]
 ```
 
 # Examples
 
 ![](images/example.gif)
 
-- `project status` - Lists all projects and their statuses
-- `project state` - Lists all projects and their state
-- `task status` - Lists all tasks and their statuses
-- `task state` - Lists all tasks and their state
-- `task status on-track` - Lists all tasks with a status of 'On Track'
-- `task status off-track` - Lists all tasks with a status of 'Off Track'
-- `project status at-risk` - Lists all tasks with a status of 'At Risk'
+-   `project status` - Lists all `projects` and their `status`
+-   `project state` - Lists all `projects` and their state
+-   `task status` - Lists all tasks and their `status`
+-   `task state` - Lists all tasks and their state
+-   `task status on-track` - Lists all tasks with a `status` of `on-track`
+-   `task state cancelled` - Lists all `projects` with a `state` of `cancelled`
+-   `project status at-risk` - Lists all tasks with a `status` of `at-risk`
 
 ### Syntax
 
