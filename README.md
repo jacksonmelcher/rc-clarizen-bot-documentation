@@ -12,7 +12,7 @@ Once you’ve connected with Clarizen, Clarizen Bot can retrieve project statuse
 -   [State](#State)
 -   [Examples](#Examples)
 -   [Aliases](#Aliases)
--   [Examples](#Syntax)
+-   [Syntax](#Syntax)
 
 ## Availibility
 
