@@ -5,7 +5,7 @@ Once you’ve connected with Clarizen, Clarizen Bot can retrieve project statuse
 
 ## Table of Contents
 
--   [Availibility](#Availibility)
+-   [Availability](#Availability)
 -   [Feedback](#We-want-your-feedback)
 -   [Commands](#Commands)
 -   [Status](#Status)
@@ -14,7 +14,7 @@ Once you’ve connected with Clarizen, Clarizen Bot can retrieve project statuse
 -   [Aliases](#Aliases)
 -   [Syntax](#Syntax)
 
-## Availibility
+## Availability
 
 Clarizen bot is in its first stages of development and is only available only to RC employees at this time.
 
