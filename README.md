@@ -20,7 +20,7 @@ Clarizen bot is in its first stages of development and is only available only to
 
 ## We want your feedback
 
-We'd love to hear your feedback about Clarizen Bot. If you spot bugs or have features that you'd really like to see, please check out the [bug and feature sumbission form](https://forms.gle/KKYKVVoxUN5z32dY7).
+We'd love to hear your feedback about Clarizen Bot. If you spot bugs or have features that you'd really like to see, please check out the [bug and feature submission form](https://forms.gle/KKYKVVoxUN5z32dY7).
 
 ## Getting started
 
