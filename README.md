@@ -66,7 +66,7 @@ Example: `project state completed` or `task state active`
 -   `task state cancelled` - Lists all `projects` with a `state` of `cancelled`
 -   `project status at-risk` - Lists all `tasks` with a `status` of `at-risk`
 
-To shorten commands Clarizen bot also recognizes aliases. Please refer to the ![alias section](#Aliases)
+To shorten commands Clarizen bot also recognizes aliases. Please refer to the [alias section](#Aliases)
 
 ### Aliases
 
