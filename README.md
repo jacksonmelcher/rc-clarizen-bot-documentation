@@ -50,7 +50,7 @@ You then have the **option** to filter by the status (`on-track`,`off-track`,`at
 ```
 
 The first argument determines whether you want a `project` or a `task`. The second argument can be `status` or `state`. `task state` is a valid command and will return **all** tasks and their states. This is true with `project state` as well.
-You then have the **option** to filter by the `state` (`active`,`off-track`,`cancelled`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command.
+You then have the **option** to filter by the `state` (`active`,`off-track`,`cancelled`, or `not-active`) of the `project` or `task` by appending one of those keywords to the end of the command. **Projects or tasks that are labels as `draft` will not be listed.** 
 
 Example: `project state completed` or `task state active`
 
